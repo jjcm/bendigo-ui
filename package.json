@@ -1,0 +1,20 @@
+{
+  "name": "bendigo-server",
+  "version": "1.0.0",
+  "description": "Dynamically compiles bendigo's design system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjcm/bendigo-ui.git"
+  },
+  "author": "Jake Miller",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.24",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.7"
+  }
+}
